@@ -38,6 +38,7 @@ model Event {
   startTime   String
   endTime     String
   location    Address
+  venue       String
 }
 
 type Address {
